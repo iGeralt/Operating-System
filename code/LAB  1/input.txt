@@ -1,0 +1,11 @@
+EMPNUM  DEPT  SALARY
+1       CSE   10000
+2       ECE   20000
+3       ECE   40000
+4       CSE   10000
+1       ECE   20000
+2       CSE   40000
+3       CSE   10000
+4       ECE   20000
+1       CSE   40000
+5       CSE   50000

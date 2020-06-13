@@ -1,0 +1,23 @@
+INPUT(write terminal)    OUTPUT(read terminal)    OUTPUT(write terminal)
+
+HELLO                     HELLO                       IFMMP
+aaaa                      aaaa                        bbbb
+AAA                       AAA                         BBB
+QQQ                       QQQ                         RRR
+1234                      1234                        2345
+ZZ                        ZZ                          [[
+zz                        zz                          {{
+Z:'[]                     Z:'[]                       [;(\^
+VCP                       VCP                         WDQ
+qwerty                    qwerty                      rxfsuz
+cccc                      cccc                        dddd
+abcdert                   abcdert                     bcdefsu
+12324556                  12324556                    23435667
+dwhs                      dwhs                        exit
+
+
+
+When dwhs or DWHS is entered as input from user then both process will be terminated.
+dwhs or DWHS will be printed on read terminal.
+exit will be printed on write terminal.
+after that both process will terminate.

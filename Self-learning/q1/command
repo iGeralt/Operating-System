@@ -1,0 +1,21 @@
+g++ -c ls.cpp
+g++ -c bs.cpp
+ar rs libsearch.a ls.o bs.o
+
+g++ -c main.cpp or g++ -I . -c main.cpp
+g++ -o main main.o libsearch.a
+
+
+dynamic
+
+g++ -fPIC -c qs.cpp  //fpic - file position independent
+g++ -fPIC -c ms.cpp
+g++ -shared -o libsort.so qs.o ms.o
+g++ -c main.cpp
+g++ -o main main.o libsort.so
+//installing library
+
+sudo mv libsort.so /usr/lib/
+sudo ldconfig
+./main
+
